@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign-up</title>
+    <link rel="stylesheet" href="sign.css">
+</head>
+<body>
+    <div class="signup">
+        <h1>Sign-up</h1>
+        <form id="signupForm">
+          <label for="name" class="name">Name:</label>
+          <input type="text" id="name" placeholder="Your Name" name="name">
+          <div class="error" id="nameError"></div>
+          <br><br>
+
+          <label for="mail" class="email">E-mail id:</label>
+          <input type="text" id="mail" placeholder="Your E-mail id" name="email">
+          <div class="error" id="emailError"></div>
+          <br><br>
+
+          <h4>Your Username is Your mail id <input type="checkbox" class="check"></h4>
+
+          <label for="username" class="user">Username:</label>
+          <input type="text" id="username" placeholder="Create Your Username" name="username">
+          <div class="error" id="usernameError"></div>
+
+          <label for="password" class="user">Password:</label>
+          <input type="text" id="username" placeholder="Create Your Password" name="username">
+          <div class="error" id="passwordError"></div>
+          <br><br>
+
+          <label for="mobile" class="number">Number:</label>
+          <input type="text" id="mobile" placeholder="Your Number" name="number">
+          <div class="error" id="numberError"></div>
+          <br><br>
+
+          <button type="button" class="getotp">Get OTP</button>
+          <input type="text" id="Otp" placeholder="Enter OTP" name="otp">
+          <div class="error" id="otpError"></div>
+          <br><br>
+
+          <button type="submit" class="submit">Register</button>
+          <p>You Already Have Account <a href="new.html">Sign-In</a> </p>
+        </form>
+    </div>
+</body>
+<script src="signup.js"></script>
+</html>

@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Navbar</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons/css/boxicons.min.css' rel='stylesheet'>
+
+</head>
+<body>
+    <nav class="navbar">
+        <div class="navbar-logo">
+            <a href="#" class="logo"><img src="img/E-shop.jpg" alt=""></a>
+            <input class="search" type="search" placeholder="Search for Products, Brands and More">
+        </div>
+        <ul class="navbar-links">
+            <li class="dropdown">
+                <a href="javascript:void(0)" class="dropbtn">Login</a>
+                <div class="dropdown-content">
+                    <a href="new.html">Login in</a>
+                    <a href="signup.html">Sign Up</a>
+                    <li><a href="#" class="cart"><i class='bx bxs-cart-alt cart-icon' id="cart-icon">Cart</i></a></li>
+                </div>               
+            </li>
+        </ul>
+    </nav>
+    <nav class="sub-navbar">
+        <ul>
+            <li class="dropdown"><img src="img/grocery.jpg" alt=""> 
+                <a href="#">Grocery</a>
+                <div class="dropdown-content">
+                    <a href="#">Pulce</a>
+                    <a href="#">Rice</a>
+                    <a href="#">Aata</a>
+                </div>
+            </li>
+            <li class="dropdown"> <img src="img/mobile.jpg" alt="">
+                <a href="#">Mobiles</a><div class="dropdown-content">
+                    <a href="#">I Phones</a>
+                    <a href="#">Vivo</a>
+                    <a href="#">Realme</a>
+                    <a href="#">Sumsung</a>
+                    <a href="#">Redmi</a>
+                </div>
+            </li>
+            <li class="dropdown"><img src="img/fashion.jpg" alt="">
+                <a href="#">Fashion</a>
+                <div class="dropdown-content">
+                    <a href="#">Men</a>
+                    <a href="#">Women</a>
+                    <a href="#">Kids</a>
+                </div>
+            </li>
+            <li class="dropdown"><img src="img/electronics.jpg" alt="">
+                <a href="#">Electronics</a>
+                <div class="dropdown-content">
+                    <a href="#">Steblizer</a>
+                    <a href="#">DC Motor</a>
+                    <a href="#">Washing machine</a>
+                    <a href="#">Battery</a>
+                    <a href="#">Remote</a>
+                </div>
+            </li>
+            <li class="dropdown"><img src="img/aplience.jpg" alt="">
+                <a href="#">Appliances</a>
+                <div class="dropdown-content">
+                    <a href="#">Cooler</a>
+                    <a href="#">frize</a>
+                    <a href="#">Washing machine</a>
+                    <a href="#">Air Condision</a>
+                    <a href="#">Fan</a>
+                    <a href="#">T V</a>
+                </div>
+            </li>
+        </ul>
+    </nav>
+    
+    <section class="shop container">
+        <h2 class="section-title">Shop Product</h2>
+        <div class="shop-content">
+            <div class="product-box">
+                <img src="img/head.jpg" alt="" class="product-img">
+                <h2 class="product-title">AIRBAND HEADPHONE</h2>
+                <span class="price">$25 </span>
+                <button id="buy">Buy Now</button>
+                <i class='bx bxs-shopping-bag add-cart'>Add to Cart</i>
+            </div>
+            <div class="product-box">
+                <img src="img/mendress.jpg" alt="" class="product-img">
+                <h2 class="product-title">MEN SHIRT</h2>
+                <span class="price">$15</span>
+                <button id="buy">Buy Now</button>
+                <i class='bx bxs-shopping-bag add-cart'>Add to Cart</i>
+           </div>
+           <div class="product-box">
+            <img src="img/hP.jpg" alt="" class="product-img">
+            <h2 class="product-title">WIRELESS AIRBAND HEADPHONE</h2>
+            <span class="price">$30</span>
+            <button id="buy">Buy Now</button>
+            <i class='bx bxs-shopping-bag add-cart'>Add to Cart</i>
+        </div>
+        <div class="product-box">
+            <img src="img/vivo .jpg" alt="" class="product-img">
+            <h2 class="product-title">VIVO FOLDING</h2>
+            <span class="price">$70</span>
+            <button id="buy">Buy Now</button>
+            <i class='bx bxs-shopping-bag add-cart'>Add to Cart</i>
+        </div>
+        <div class="product-box">
+            <img src="img/mobile.jpg" alt="" class="product-img">
+            <h2 class="product-title">I PHONE 14 MAX</h2>
+            <span class="price">$90</span>
+            <button id="buy">Buy Now</button>
+            <i class='bx bxs-shopping-bag add-cart'>Add to Cart</i>
+        </div>
+        <div class="product-box">
+            <img src="img/women.jpg" alt="" class="product-img">
+            <h2 class="product-title">WOMEN DRESS</h2>
+            <span class="price">$13 </span>
+            <button id="buy">Buy Now</button>
+            <i class='bx bxs-shopping-bag add-cart'>Add to Cart</i>
+        </div>
+        <div class="product-box">
+            <img src="img/minicoller.jpg" alt="" class="product-img">
+            <h2 class="product-title">FRESH AIR MINI COLLER</h2>
+            <span class="price">$20</span>
+            <button id="buy">Buy Now</button>
+            <i class='bx bxs-shopping-bag add-cart'>Add to Cart</i>
+        </div>
+        <div class="product-box">
+            <img src="img/headphones.jpg" alt="" class="product-img">
+            <h2 class="product-title">WIRELESS BT MUSIC</h2>
+            <span class="price">$36</span>
+            <button id="buy">Buy Now</button>
+            <i class='bx bxs-shopping-bag add-cart'>Add to Cart</i>
+        </div>
+        <div class="product-box">
+            <img src="img/kids wear.jpg" alt="" class="product-img">
+            <h2 class="product-title">KIDS FASHION LAHNGA, AND LEADER CORT</h2>
+            <span class="price">$48</span>
+            <button id="buy">Buy Now</button>
+            <i class='bx bxs-shopping-bag add-cart'>Add to Cart</i>
+        </div>
+        <div class="product-box">
+            <img src="img/coodfandy.jpg" alt="" class="product-img">
+            <h2 class="product-title">MEN COODFANDY SHIRT</h2>
+            <span class="price">$22</span>
+            <button id="buy">Buy Now</button>
+            <i class='bx bxs-shopping-bag add-cart'>Add to Cart</i>
+        </div>
+        </div>
+    </section>
+    <section class="footer">
+       <div class="about-us">
+         <h4>ABOUT</h4>
+         <li><a href="#"><h6>- Contact Us</h6></a></li>
+         <li><a href="#"><h6>- About Us</h6></a></li>
+         <li><a href="#"><h6>- Information</h6></a></li>
+       </div>
+       <div class="about-us">
+        <h4>GROUP OF COMPANIES</h4>
+        <li><a href="#"><h6>- Flipkart</h6></a></li>
+         <li><a href="#"><h6>- Amazone</h6></a></li>
+         <li><a href="#"><h6>- Shopsy</h6></a></li>
+      </div>
+      <div class="about-us">
+        <h4>HELP</h4>
+        <li><a href="#"><h6>- Payment</h6></a></li>
+         <li><a href="#"><h6>- Shiping</h6></a></li>
+         <li><a href="#"><h6>- cancellation & return</h6></a></li>
+      </div>      
+      <div class="about-us">
+        <h4>ADDRESS</h4>
+        <p>Lucknow (U.P)
+        <br>226010 INDIA </p>
+      </div>
+      
+      <div id="vertical"></div>
+      <div class="contact-form">
+        <h3>Contact Us</h3>
+        <form action="#" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="text" id="email" name="email" required>
+            
+            <label for="message">Message:</label>
+            <textarea type="text" id="text" name="message" rows="4" required></textarea>
+        </form>
+    </div>
+    <button type="submit"class="submit">Send</button>
+    </section>
+    <div id="cart-container" class="cart-container">
+        <div class="cart-header">
+            <h2 class="ycart">Your Cart</h2>
+            <span id="close-cart" class="close-cart">&times;</span>
+        </div>
+        <div class="cart-content">
+        </div>
+        <div class="total">
+            <div class="total-title">Total</div>
+            <div class="total-price">$0</div>
+            <button type="button" class="btn-buy">Buy Now</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
