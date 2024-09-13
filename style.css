@@ -14,21 +14,15 @@ body {
     margin-top: 20px;
     width: 94%;
     margin-left: 1.2%;
-}
-
-.logo>img{
-    width: 130px;
-    height: 50px;
-    align-content: center;
+    height: 30px;
 }
 
 .search{
-    width: 400px;
+    width: 600px;
     border-radius: 20px;
     height: 34px;
-    margin-left: 190px;
-    margin-top: -150px;
- 
+    margin-left: -30px;
+  
 }
 input[type="search"] {
     width: 80%;
@@ -44,6 +38,16 @@ input[type="search"]:focus {
     box-shadow: 0 0 8px rgba(250, 15, 15, 0.3);
     outline: none;
 }
+.logo>img{
+    width: 130px;
+    height: 50px;
+    margin-top: 6px;
+    border-radius: 5px;
+    background: transparent;
+}
+
+
+
 .navbar-links {
     list-style: none;
     margin: 0;
@@ -157,8 +161,10 @@ input[type="search"]:focus {
     border-radius: 10px;
 }
 .sub-navbar>img{
-    height: 100px;
-    width: 100px;
+    height: 60px;
+    width: 60px;
+    position: absolute;
+    padding: 0;
 } 
 .sub-navbar ul {
     list-style: none;
@@ -174,6 +180,7 @@ input[type="search"]:focus {
 .sub-navbar ul li>img {
     height: 100px;
     width: 100px;
+    margin-left: 10px;
 }
 .sub-navbar ul li a {
     color: #333;
@@ -213,21 +220,20 @@ input[type="search"]:focus {
 }
 
 .shop{
-    margin-top: 2rem;
+    margin-top: rem;
     text-align: center;
 }
 .shop-content{
     margin-top: 1rem;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, auto));
-    gap: 2.3rem;
+    gap: 2rem;
     padding: 3rem;
 }
 .product-box{
     position: relative;
     display: flexbox;
-    border: solid rgb(119, 118, 118)  0.3px;
-    0.3px
+    border: solid rgb(119, 118, 118)  2px;
 }
 .product-box:hover{
      padding: 2px;
@@ -238,7 +244,7 @@ input[type="search"]:focus {
     width: 100%;
     height: auto;
     margin-bottom: 0.5rem;
-    border-style: solid black;
+    border-style: solid rgb(68, 15, 15);
 }
 .product-title{
     font-size: 1rem;
@@ -277,6 +283,22 @@ input[type="search"]:focus {
     background-color: rgb(209, 88, 8);
     color: #f1f1f1;
 }
+.add-cart{
+    position: relative;
+    bottom: 0;
+    right: 0;
+    background-color: orange;
+    color: var(--text-color);
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: 800;
+    border:2px solid black ;
+    height: 15px;
+    width: 5.6rem;
+    font-size: 14px;
+    margin-top: 5px;
+}
 #buy{
     position: relative;
     bottom: 0;
@@ -294,13 +316,14 @@ input[type="search"]:focus {
     margin-left: -00.0px;
     margin-top: 20px;
 }
+
 #buy:hover{
     background-color: rgb(209, 88, 8);
     color: #f1f1f1;
 }
 .footer{
     position: relative;
-    height: 18rem;
+    height: 19rem;
     width: 98%;
     background-color: #333;
     margin-left: 1%;
@@ -311,24 +334,37 @@ input[type="search"]:focus {
     justify-content: flex-start; 
     padding-left: rem; 
     color: rgb(162, 173, 173);
+    border: 3px solid rgb(47, 33, 59);
 }
 .about-us{
     height: 14rem;
     width: 11rem;
-    border: solid rgb(110, 109, 109) 0.4px;
+    border: solid rgb(190, 174, 174) 0.4px;
     margin-left:2rem;
     text-align: center;
     border-radius: 8px;
     list-style: none;
+    margin-top: -20px ;
 
 }
 .about-us li a {
     text-decoration: none;
+    
 }
+.about-us h6{
+    padding: 0;
+}
+.locat{
+    height:10px;
+    width: 10px;
+    margin-right:;
+    color: rgb(44, 33, 33);
+}
+
 #vertical {
     width: 0; 
-    height: 15.5rem; 
-    border-left: solid rgb(110, 109, 109) 0.4px;
+    height: 17rem; 
+    border-left: solid rgb(190, 183, 183) 0.4px;
     margin-left: 2rem; 
 }
 
@@ -410,6 +446,23 @@ textarea[type="text"]:focus {
 
 .submit.button:hover {
     background-color: #2980b9;
+}
+.socil{
+    background-color: #313131;
+    height: 50px;
+    width: 98%;
+    margin-left: 1%;
+    border-radius: 6px;
+    margin-bottom: 20px;
+    margin-top: -48px;
+    border: 3px solid rgb(11, 10, 12);
+}
+.socialapk img{
+    height: 40px;
+    width: 40px;
+    margin-left: 20px;
+    margin-top: 5px;
+align-items: center;
 }
 h6{
     font-size: 12px;
